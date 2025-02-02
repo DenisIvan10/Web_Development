@@ -1,0 +1,132 @@
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Customization */
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    object-fit: cover;
+    height: 500px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv>div {
+    padding: 10px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+}
+
+#clockdiv div>span {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgb(54, 54, 54);
+    display: inline-block;
+}
+
+/* Style for visible text */
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+
+/* Newsletter Section */
+.newsletter {
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.newsletter h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter input[type="email"] {
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+.newsletter button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+/* Other Images */
+footer img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Form Customization */
+form .input-group {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .newsletter h2 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter form {
+        flex-direction: column;
+    }
+
+    .newsletter input[type="email"] {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .newsletter button {
+        width: 100%;
+    }
+}
